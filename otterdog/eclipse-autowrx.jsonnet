@@ -47,6 +47,13 @@ orgs.newOrg('automotive.autowrx', 'eclipse-autowrx') {
     orgs.newRepo('dreamKIT') {
       has_issues: true,
     },
+    orgs.newRepo('widget-3d-car-unity') {
+      allow_merge_commit: true,
+      allow_update_branch: true,
+      delete_branch_on_merge: true,
+      web_commit_signoff_required: false,
+      has_issues: true,
+    },
     orgs.newRepo('instance-overlay') {
       allow_merge_commit: true,
       allow_update_branch: false,
