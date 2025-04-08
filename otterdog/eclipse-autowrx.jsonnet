@@ -46,6 +46,7 @@ orgs.newOrg('automotive.autowrx', 'eclipse-autowrx') {
     },
     orgs.newRepo('dreamKIT') {
       has_issues: true,
+      allow_merge_commit: true,
     },
     orgs.newRepo('instance-overlay') {
       allow_merge_commit: true,
