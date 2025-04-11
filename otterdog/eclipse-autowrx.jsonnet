@@ -62,6 +62,13 @@ orgs.newOrg('automotive.autowrx', 'eclipse-autowrx') {
       web_commit_signoff_required: false,
       has_issues: true,
     },
+    orgs.newRepo('learning-journey') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      web_commit_signoff_required: false,
+      has_issues: true,
+    },
     orgs.newRepo('instance-overlay') {
       allow_merge_commit: true,
       allow_update_branch: false,
