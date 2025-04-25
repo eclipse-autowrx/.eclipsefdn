@@ -14,6 +14,7 @@ orgs.newOrg('automotive.autowrx', 'eclipse-autowrx') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
+      private: true,
     },
     orgs.newRepo('autowrx') {
       allow_merge_commit: true,
