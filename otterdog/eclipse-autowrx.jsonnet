@@ -97,7 +97,13 @@ orgs.newOrg('automotive.autowrx', 'eclipse-autowrx') {
       delete_branch_on_merge: false,
       web_commit_signoff_required: false,
     },
-    orgs.newRepo('inventory') {
+    orgs.newRepo('inventory-frontend') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      delete_branch_on_merge: false,
+      web_commit_signoff_required: false,
+    },
+    orgs.newRepo('inventory-backend') {
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
