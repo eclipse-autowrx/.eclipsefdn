@@ -96,6 +96,12 @@ orgs.newOrg('automotive.autowrx', 'eclipse-autowrx') {
        allow_update_branch: false,
        delete_branch_on_merge: false,
        web_commit_signoff_required: false,
+    },
+    orgs.newRepo('SDV4EE-demo') {
+       allow_merge_commit: true,
+       allow_update_branch: false,
+       delete_branch_on_merge: false,
+       web_commit_signoff_required: false,
     }
   ],
 } + {
