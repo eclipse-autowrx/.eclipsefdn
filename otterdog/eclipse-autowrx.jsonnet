@@ -114,7 +114,13 @@ orgs.newOrg('automotive.autowrx', 'eclipse-autowrx') {
        allow_update_branch: true,
        delete_branch_on_merge: true,
        web_commit_signoff_required: false,
-    }
+    },
+    orgs.newRepo('sample-replit-plugin') {
+       allow_merge_commit: true,
+       allow_update_branch: true,
+       delete_branch_on_merge: true,
+       web_commit_signoff_required: false,
+  }
   ],
 } + {
   # snippet added due to 'https://github.com/EclipseFdn/otterdog-configs/blob/main/blueprints/add-dot-github-repo.yml'
