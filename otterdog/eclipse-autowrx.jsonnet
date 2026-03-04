@@ -126,6 +126,12 @@ orgs.newOrg('automotive.autowrx', 'eclipse-autowrx') {
        allow_update_branch: true,
        delete_branch_on_merge: true,
        web_commit_signoff_required: false,
+    },
+    orgs.newRepo('sdv-blueprints') {
+       allow_merge_commit: true,
+       allow_update_branch: true,
+       delete_branch_on_merge: true,
+       web_commit_signoff_required: false,
     }
   ],
 } + {
